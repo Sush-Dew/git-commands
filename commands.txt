@@ -2,16 +2,16 @@ Git Commands
 
 git config
 
-Usage: git config –global user.name “[name]”  
+syntax: git config –global user.name “[name]”  
 
-Usage: git config –global user.email “[email address]”  
+syntax: git config –global user.email “[email address]”  
 
 This command sets the author name and email address respectively to be used with your commits.
 
 
 git init
 
-Usage: git init [repository name]
+syntax: git init [repository name]
 
  
 
@@ -20,6 +20,76 @@ This command is used to start a new repository.
 
 git clone
 
-Usage: git clone [url]  
+syntax: git clone [url]  
 
 This command is used to obtain a repository from an existing URL.
+
+git diff
+
+syntax: git diff  
+
+This command shows the file differences which are not yet staged.
+
+git status
+
+syntax: git status  
+
+This command lists all the files that have to be committed.
+
+git rm
+
+syntax: git rm [file]  
+
+This command deletes the file from your working directory and stages the deletion.
+
+git log
+
+syntax: git log  
+
+This command is used to list the version history for the current branch.
+
+git show
+
+syntax: git show [commit id]  
+
+This command shows the metadata and content changes of the specified commit.
+
+git merge
+
+syntax: git merge [branch name]  
+
+This command merges the specified branch’s history into the current branch.
+
+git remote
+
+syntax: git remote add [variable name] [Remote Server Link]  
+
+This command is used to connect your local repository to the remote server.
+
+git push
+
+syntax: git push [variable name] master  
+
+This command sends the committed changes of master branch to your remote repository.
+
+git pull
+
+syntax: git pull [Repository Link]  
+
+This command fetches and merges changes on the remote server to your working directory.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
